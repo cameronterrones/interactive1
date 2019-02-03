@@ -3,18 +3,16 @@
     padding: 0px;
   }
   
-  body {
-    background-color: whitesmoke;
-    color: #252525;
-  }
-
   font-family: fira-sans, sans-serif;
 
 font-weight: 600;
 
 font-style: normal;
-
-
+  
+  body {
+    background-color: whitesmoke;
+    color: #252525;
+  }
 
    div {
   padding: 25px;
