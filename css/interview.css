@@ -8,7 +8,8 @@
     color: #252525;
   }
 
-  h1 {
+  h1,
+  h2 {
   	font-family: fira-sans, sans-serif;
 
 font-weight: 600;
