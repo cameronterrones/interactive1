@@ -3,7 +3,6 @@
     padding: 50px;
   }
   
-<div>
   body {
     background-color: whitesmoke;
     color: #252525;
@@ -39,12 +38,6 @@ text-align: justify;
 
 max-width: 650px;
   }
-
-   div {
-  padding: 25px;
-  margin-bottom: 25px;
-}
-</div>
 
 .interview {
   max-width: 650px;
