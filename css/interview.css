@@ -58,6 +58,7 @@ img {
 	max-width: 40%;
   float: right;
   padding: 25px;
+  position: fixed;
 }
 
 #question {
