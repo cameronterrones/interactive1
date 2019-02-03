@@ -18,7 +18,7 @@ font-weight: 600;
 font-style: normal;
   }
 
-  li .interview{
+  li {
   	font-family: fira-sans, sans-serif;
 
 font-weight: 400;
@@ -63,4 +63,12 @@ img {
 	max-width: 40%;
   float: right;
   padding: 25px;
+}
+
+#? {
+	font-family: fira-sans, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
 }
