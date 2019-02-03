@@ -6,8 +6,8 @@
   body {
     background-color: whitesmoke;
     color: #252525;
-    margin: 50px;
-    padding: 50px;
+    margin: 25px;
+    padding: 25px;
   }
 
   h1,
@@ -58,7 +58,6 @@ img {
 	max-width: 40%;
   float: right;
   padding: 25px;
-  position: fixed;
 }
 
 #question {
