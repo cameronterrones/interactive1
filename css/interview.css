@@ -8,6 +8,14 @@
     color: #252525;
   }
 
+  h1 {
+  	font-family: fira-sans, sans-serif;
+
+font-weight: 600;
+
+font-style: normal;
+  }
+
    div {
   padding: 25px;
   margin-bottom: 25px;
