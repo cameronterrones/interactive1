@@ -53,4 +53,9 @@ left: 1em;
 img {
 	max-width: 40%;
   float: right;
+  clear: left;
+}
+
+h1 {
+
 }
