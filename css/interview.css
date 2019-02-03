@@ -37,3 +37,7 @@ font-style: normal;
   padding: 25px;
   margin-bottom: 25px;
 }
+
+.interview {
+  max-width: 650px;
+}
