@@ -51,9 +51,6 @@ max-width: 650px;
 }
 
  #toc {
-  position: fixed;
-top: 1em
-left: 1em;
 
   font-family: fira-sans, sans-serif;
 
