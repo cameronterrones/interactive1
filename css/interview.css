@@ -2,7 +2,9 @@
     margin: 0px;
     padding: 0px;
   }
-  
+  div {
+  text-align: justify;
+}
   font-family: fira-sans, sans-serif;
 
 font-weight: 600;
