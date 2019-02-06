@@ -15,8 +15,11 @@
     padding: 25px;
   }
 
-  div {
-  padding: 25px;
-  margin-bottom: 25px;
-}
+ h1,
+ h2 {
+  	font-family: fira-sans, sans-serif;
+
+	font-weight: 600;
+
+	font-style: normal;
 
