@@ -10,7 +10,9 @@
   
   body {
     background-color: whitesmoke;
-    color: black;
+    color: #252525;
+    margin: 25px;
+    padding: 25px;
   }
 
   div {
