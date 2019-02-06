@@ -1,21 +1,23 @@
   
-  body {
+body {
     background-color: whitesmoke;
     color: #252525;
     margin: 25px;
     padding: 25px;
   }
 
- h1,
- h2 {
+h1,
+h2 {
   	font-family: fira-sans, sans-serif;
 
 	font-weight: 600;
 
 	font-style: normal;
+}
 
-	 p {
-  	font-family: fira-sans, sans-serif;
+
+p {
+    font-family: fira-sans, sans-serif;
 
 	font-weight: 200;
 
@@ -24,5 +26,4 @@
 	text-align: justify;
 
 	max-width: 650px;
-  }
-
+}
