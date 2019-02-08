@@ -66,3 +66,15 @@ img {
 
 	font-style: normal;
 }
+
+a:link {
+  color: #252525;
+}
+
+a:visited {
+  color: #252525;
+}
+
+a:hover {
+  color: #c51e1e;
+}
