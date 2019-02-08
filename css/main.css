@@ -27,3 +27,15 @@ li {
 
 	  max-width: 700px;
   }
+
+  a:link {
+    color: #252525;
+  }
+  
+  a:visited {
+    color: #252525;
+  }
+  
+  a:hover {
+    color: #c51e1e;
+  }
