@@ -52,3 +52,9 @@ position: absolute;
 top: 60px;
 left: 175px;
 }
+
+#border {
+    width: 450px;
+    height:250px;
+    border: black;
+}
