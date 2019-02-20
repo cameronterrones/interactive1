@@ -1,0 +1,54 @@
+
+/* reset styles */
+* {
+    margin: 0px; padding: 0px;
+}
+
+/* make the background of the page black */
+body {
+    background: black;
+}
+
+/* flag canvas */
+#canvas {
+    width: 500px;
+    height: 300px;
+    position: relative;
+    background: white;
+}
+
+/* shapes */
+#sun1 {
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    mix-blend-mode: multiply;
+    border-radius: 150px;
+
+position: absolute;
+top: 60px;
+left: 225px;
+}
+
+#sun2 {
+    width: 100px;
+    height: 100px;
+    background: cyan;
+    mix-blend-mode: multiply;
+    border-radius: 150px;
+
+position: absolute;
+top: 100px;
+left: 200px;
+}
+
+#sun3 {
+    width: 100px;
+    height: 100px;
+    background: magenta;
+    mix-blend-mode:multiply;
+    border-radius: 100px;
+position: absolute;
+top: 60px;
+left: 175px;
+}
