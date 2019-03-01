@@ -1,0 +1,31 @@
+.outer {
+    width: 600px;
+    height: 600px;
+    background: red;
+}
+
+.shape {
+    width: 100px;
+    height: 100px;
+    background-color: orangered;
+    float: left;
+
+}
+
+
+body {
+    background-color: whitesmoke;
+    padding: 50px;
+}
+
+h1:hover {
+    color: red;
+}
+
+div:hover+div {
+    background: orange;
+}
+
+.outer:hover .outer.shape:nth-child(even) {
+    background: pink;
+}

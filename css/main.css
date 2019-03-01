@@ -1,41 +1,82 @@
+.background-image {
+  background-image: url("images/IMG_8102\ copy.jpg");
+  background-color: #cccccc;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.name:hover {
+  color: orangered;
+  font-family: fira-sans, sans-serif;
+
+  font-weight: 600;
+
+  font-style: normal;
+}
 
 body {
-    background-color: whitesmoke;
-    color: #252525;
-    margin: 25px;
-    padding: 25px;
-  }
+  background-color: whitesmoke;
+  color: dimgray;
+}
+
 
 h1,
 h2 {
-  	font-family: fira-sans, sans-serif;
+  font-family: fira-sans, sans-serif;
 
-	font-weight: 600;
+  font-weight: 600;
 
-	font-style: normal;
-  }
+  font-style: normal;
+}
 
 p,
 li {
-    font-family: fira-sans, sans-serif;
+  font-family: fira-sans, sans-serif;
 
-	  font-weight: 400;
+  font-weight: 400;
 
-	  font-style: normal;
+  font-style: normal;
 
-	  text-align: justify;
+  text-align: justify;
 
-	  max-width: 700px;
-  }
+  max-width: 700px;
+}
 
-  a:link {
-    color: #252525;
-  }
-  
-  a:visited {
-    color: #252525;
-  }
-  
-  a:hover {
-    color: #c51e1e;
-  }
+a:link {
+  color: orange;
+}
+
+a:visited {
+  color: orange;
+}
+
+a:hover {
+  color: #c51e1e;
+}
+
+img {
+  height: 200px;
+}
+
+.ah {
+  color: orange;
+}
+
+.bg-bleed {
+  position: fixed;
+  top: 0%;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+#container {
+  margin: 25px;
+}

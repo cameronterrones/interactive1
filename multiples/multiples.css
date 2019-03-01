@@ -1,19 +1,21 @@
-
 * {
-    margin:100px;
+    margin: 100px;
     padding: 0px;
     box-sizing: border-box;
 }
+
 body {
     background: white;
 }
+
 #desktop {
     display: block;
     color: white;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
 }
+
 #tablet,
 #mobile,
 #print {
@@ -26,32 +28,38 @@ body {
     body {
         background: white;
     }
+
     #tablet {
         display: block;
-    color: white;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
     }
+
     #desktop,
     #mobile,
     #print {
         display: none;
     }
-    
+
 }
+
 /* mobile */
 @media (max-width: 670px) {
     body {
         background: white;
     }
+
     #mobile {
+        position: relative;
         display: block;
-    color: white;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
     }
+
     #desktop,
     #tablet,
     #print {
@@ -65,12 +73,14 @@ body {
     body {
         background: white;
     }
+
     #print {
         display: inline;
-  position: relative;
-height: auto;
-width: 50%;
+        position: relative;
+        height: auto;
+        width: 40%;
     }
+
     #desktop,
     #tablet,
     #mobile {
