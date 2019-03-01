@@ -13,7 +13,7 @@
 }
 
 .name:hover {
-  color: orangered;
+  color: orange;
   font-family: fira-sans, sans-serif;
 
   font-weight: 600;
@@ -23,7 +23,8 @@
 
 body {
   background-color: whitesmoke;
-  color: dimgray;
+  color: orange;
+  min-width: 800px;
 }
 
 
@@ -54,11 +55,11 @@ a:link {
 }
 
 a:visited {
-  color: orange;
+  color: rgb(64, 209, 64);
 }
 
 a:hover {
-  color: #c51e1e;
+  color: rgb(64, 209, 64);
 }
 
 img {
@@ -79,4 +80,9 @@ img {
 
 #container {
   margin: 25px;
+  min-width: 800px;
+}
+
+.bob {
+  scale: 20%;
 }
