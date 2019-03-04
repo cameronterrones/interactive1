@@ -1,0 +1,182 @@
+body {
+    background-color: black;
+}
+
+.LOST {
+    position: absolute;
+    top: 160px;
+}
+
+.LOST:hover {
+    position: absolute;
+    animation: 1s glitch2 infinite alternate;
+}
+
+@keyframes glitch2 {
+    0% {
+        transform: none;
+        opacity: 1;
+    }
+
+    7% {
+        transform: skew(-0.5deg, -0.9deg);
+        opacity: 0;
+    }
+
+    10% {
+        transform: none;
+        opacity: 1;
+    }
+
+    27% {
+        transform: none;
+        opacity: 0;
+    }
+
+    30% {
+        transform: skew(0.8deg, -0.1deg);
+        opacity: 0;
+    }
+
+    35% {
+        transform: none;
+        opacity: 1;
+    }
+
+    52% {
+        transform: none;
+        opacity: 0;
+    }
+
+    55% {
+        transform: skew(-1deg, 0.2deg);
+        opacity: 0;
+    }
+
+    50% {
+        transform: none;
+        opacity: 1;
+    }
+
+    80% {
+        transform: none;
+        opacity: 1;
+    }
+
+    100% {
+        transform: none;
+        opacity: 1;
+    }
+}
+
+.lost-text2 {
+    animation: .9ms glitch1 infinite alternate;
+    position: absolute;
+}
+
+@keyframes glitch1 {
+    0% {
+        transform: none;
+        opacity: 1;
+    }
+
+    7% {
+        transform: skew(-0.5deg, -0.9deg);
+        opacity: 0.75;
+    }
+
+    10% {
+        transform: none;
+        opacity: 1;
+    }
+
+    27% {
+        transform: none;
+        opacity: 0;
+    }
+
+    30% {
+        transform: skew(0.8deg, -0.1deg);
+        opacity: 0.75;
+    }
+
+    35% {
+        transform: none;
+        opacity: 1;
+    }
+
+    52% {
+        transform: none;
+        opacity: 0;
+    }
+
+    55% {
+        transform: skew(-1deg, 0.2deg);
+        opacity: 0.75;
+    }
+
+    50% {
+        transform: none;
+        opacity: 1;
+    }
+
+    80% {
+        transform: none;
+        opacity: 1;
+    }
+
+    100% {
+        transform: none;
+        opacity: 1;
+    }
+}
+
+.lost-text {
+    animation: 1s glitch2 infinite alternate;
+    position: absolute;
+}
+
+@keyframes glitch2 {
+    0% {
+        transform: none;
+        opacity: 1;
+    }
+
+    7% {
+        transform: skew(-0.5deg, -0.9deg);
+    }
+
+    10% {
+        transform: none;
+        opacity: 0;
+    }
+
+    27% {
+        transform: none;
+        opacity: .5;
+
+    }
+
+    30% {
+        transform: skew(0.8deg, -0.1deg);
+
+    }
+
+
+    55% {
+        transform: skew(-1deg, 0.2deg);
+
+    }
+
+    75% {
+        transform: skew(0.4deg, 1deg);
+
+    }
+
+}
+
+100% {
+    transform: none;
+
+}
+}
