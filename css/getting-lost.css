@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: darkred;
 }
 
 .LOST {
@@ -10,6 +10,7 @@ body {
 .LOST:hover {
     position: absolute;
     animation: 1s glitch2 infinite alternate;
+
 }
 
 @keyframes glitch2 {
@@ -77,6 +78,7 @@ body {
 .lost-text2 {
     animation: .9ms glitch1 infinite alternate;
     position: absolute;
+    mix-blend-mode: screen;
 }
 
 @keyframes glitch1 {
@@ -137,8 +139,9 @@ body {
 }
 
 .lost-text {
-    animation: 1s glitch2 infinite alternate;
+    animation: .5s glitch2 infinite alternate;
     position: absolute;
+
 }
 
 @keyframes glitch2 {
