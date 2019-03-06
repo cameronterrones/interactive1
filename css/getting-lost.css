@@ -153,6 +153,7 @@ body {
 
     7% {
         transform: skew(-0.5deg, -0.9deg);
+        opacity: 1;
     }
 
     10% {
@@ -182,10 +183,4 @@ body {
 
     }
 
-}
-
-100% {
-    transform: none;
-
-}
 }
