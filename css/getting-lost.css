@@ -9,7 +9,7 @@ body {
 
 .LOST:hover {
     position: absolute;
-    animation: 1s glitch2 infinite alternate;
+    animation: .5s glitch2 infinite alternate;
 
 }
 
@@ -52,6 +52,7 @@ body {
     52% {
         transform: none;
         opacity: 0;
+        animation: 1s
     }
 
     55% {
