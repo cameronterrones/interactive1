@@ -1,0 +1,24 @@
+body {
+    background-color: lightblue;
+    color: white;
+    padding: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-auto-rows: 100px;
+    grid-gap: 2vw;
+}
+
+.grid-container-2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-auto-rows: 100px;
+    grid-gap: 2vw;
+}
+
+.grid-item {
+    background-color: lightcoral;
+    border: 1px solid white;
+}

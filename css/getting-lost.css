@@ -1,11 +1,14 @@
 body {
     background-color: darkred;
+    overflow: none;
 }
 
 .LOST {
     position: absolute;
     top: 160px;
 }
+
+
 
 .LOST:hover {
     position: absolute;
@@ -77,7 +80,7 @@ body {
 }
 
 .lost-text2 {
-    animation: .9ms glitch1 infinite alternate;
+    animation: .8ms glitch1 infinite alternate;
     position: absolute;
     mix-blend-mode: screen;
 }
@@ -181,6 +184,23 @@ body {
     75% {
         transform: skew(0.4deg, 1deg);
 
+    }
+
+}
+
+.warning {
+    transition-duration: 10s;
+    background-color: darkred;
+}
+
+@keyframes warning {
+
+    0% {
+        opacity: 100%;
+    }
+
+    90% {
+        opacity: 0%;
     }
 
 }

@@ -1,0 +1,90 @@
+body {
+    background-image: url(pj.gif);
+}
+
+/* The side navigation menu */
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 14vw;
+    position: absolute;
+    overflow: auto;
+}
+
+/* Sidebar links */
+.sidebar a {
+    display: block;
+    color: lightgreen;
+    padding: 16px;
+    font-family: komu-a, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: 110%;
+    min-width: 185px;
+}
+
+/* Active/current link */
+.sidebar a.active {
+    background-color: lightgreen;
+    color: white;
+}
+
+/* Links on mouse-over */
+.sidebar a:hover:not(.active) {
+    color: lightgoldenrodyellow;
+}
+
+/* Page content. The value of the margin-left property should 
+match the value of the sidebar's width property */
+div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 300px;
+}
+
+.content {
+    color: lightgoldenrodyellow;
+    width: 250px;
+    text-align: left;
+    font-family: komu-a, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 110%;
+    margin-top: 100px;
+    letter-spacing: 1px;
+}
+
+.content p {
+    line-height: 2;
+    margin: 0;
+    position: absolute;
+    top: 35%;
+    left: 60%;
+    transform: translate(-60%, -40%);
+}
+
+#leftmargin {
+    background-color: rgba(53, 53, 53, 0.959);
+    width: 15vw;
+    height: 100vh;
+    position: absolute;
+    margin-top: -100px;
+    left: -10px;
+    min-width: 185px;
+}
+
+#home {
+    display: block;
+    color: lightgoldenrodyellow;
+    padding: 16px;
+    font-family: komu-a, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: 110%
+}
