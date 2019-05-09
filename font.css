@@ -1,0 +1,146 @@
+body {
+    background-color: lightslategray;
+    margin: 30px
+}
+
+#triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid orangered;
+}
+
+#small-triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 50px solid lightblue;
+    position: absolute;
+    top: 85px;
+    left: 55px;
+
+}
+
+#rectangle {
+    width: 50px;
+    height: 100px;
+    background: orangered;
+    position: absolute;
+    right: 1175px;
+    top: 30px;
+    z-index: -1;
+}
+
+#top-b-circle {
+    width: 50px;
+    height: 50px;
+    background: lightblue;
+    border-radius: 50%;
+    position: absolute;
+    right: 1150px;
+    top: 35px;
+}
+
+#bottom-b-circle {
+    width: 50px;
+    height: 50px;
+    background: lightblue;
+    border-radius: 50%;
+    position: absolute;
+    right: 1150px;
+    top: 85px;
+}
+
+#c-circle {
+    width: 100px;
+    height: 100px;
+    background: orangered;
+    border-radius: 50%;
+    position: absolute;
+    right: 1015px;
+    top: 30px;
+}
+
+#c-rectangle {
+    width: 50px;
+    height: 100px;
+    background: lightslategray;
+    position: absolute;
+    right: 1015px;
+    top: 30px;
+    z-index: 2;
+}
+
+#c-circle-small {
+    width: 50px;
+    height: 50px;
+    background: lightblue;
+    border-radius: 50%;
+    position: absolute;
+    right: 1040px;
+    top: 60px;
+    z-index: 1;
+}
+
+#c-circle-gray {
+    width: 50px;
+    height: 50px;
+    background: lightslategray;
+    border-radius: 50%;
+    position: absolute;
+    right: 1040px;
+    top: 55px;
+}
+
+#d-circle {
+    width: 100px;
+    height: 100px;
+    background: orangered;
+    border-radius: 50%;
+    position: absolute;
+    right: 865px;
+    top: 30px;
+}
+
+#d-rectangle {
+    width: 50px;
+    height: 100px;
+    background: lightslategray;
+    position: absolute;
+    right: 915px;
+    top: 30px;
+    z-index: 2;
+}
+
+#d-circle-small {
+    width: 50px;
+    height: 50px;
+    background: lightblue;
+    border-radius: 50%;
+    position: absolute;
+    right: 890px;
+    top: 60px;
+    z-index: 1;
+}
+
+#d-circle-gray {
+    width: 50px;
+    height: 50px;
+    background: lightslategray;
+    border-radius: 50%;
+    position: absolute;
+    right: 890px;
+    top: 55px;
+}
+
+#d-rectangle-2 {
+    width: 25px;
+    height: 100px;
+    background: orangered;
+    position: absolute;
+    right: 915px;
+    top: 30px;
+    z-index: 3;
+}
